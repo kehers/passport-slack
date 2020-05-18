@@ -1,0 +1,12 @@
+{
+  "name": "@kehers/passport-slack",
+  "version": "0.0.1",
+  "description": "Slack authentication strategy for Passport",
+  "main": "src/index.js",
+  "repository": "https://github.com/kehers/passport-slack.git",
+  "author": "Opeyemi Obembe <kehers@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "passport-oauth2": "^1.5.0"
+  }
+}
