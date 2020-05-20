@@ -103,7 +103,7 @@ Strategy.prototype.userProfile = function (accessToken, done) {
   }
   const profile = this._oauth2.profile
   const url = `${this._userProfileURL}?user=${profile.id}`
-  this._oauth2.get(url, profile.access_token, function (err, body, res) {
+  this._oauth2.get(url, accessToken, function (err, body, res) {
     var json
 
     if (err) {

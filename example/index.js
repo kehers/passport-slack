@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 
 // Initiates basic Sign in With Slack flow
 app.get('/auth', passport.authenticate('slack', {
-  user_scope: ['users:read'],
+  user_scope: ['identity:basic'],
   scope: ['team:read', 'chat:write', 'chat:write.customize', 'chat:write.public', 'commands', 'channels:read', 'im:history', 'users:read']
 }))
 // Completes the OAuth flow.
