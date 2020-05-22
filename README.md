@@ -67,3 +67,6 @@ app.get('/auth', passport.authenticate('slack', {
 
 See the [`example` directory](example) for a simple implementation.
 
+## Plug
+
+Looking for a shared inbox and helpdesk built on Slack? See [sharedbox.app](https://sharedbox.app/?ref=gh)
